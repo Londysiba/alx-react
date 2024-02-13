@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import _ from 'lodash';
+import _debounce from 'lodash/debounce';
 
 $('body').append('<p>Holberton Dashboard</p>');
 $('body').append('<p>Dashboard data for the students</p>');
